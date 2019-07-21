@@ -40,3 +40,10 @@ kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/
 kubectl rollout undo deployments/kubernetes-bootcamp
 
 kubectl rollout status deployments/kubernetes-bootcamp
+
+######################################################################################
+Notes by Rajesh
+
+Kubernetes join key
+kubeadm join 172.31.6.20:6443 --token 8gw0w4.4v7zjr7cgtka6d5x \
+    --discovery-token-ca-cert-hash sha256:9a5333b383a4f1378d86701a48262d7710026a15d4b363075f71b9ca269dfe14
